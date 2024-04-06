@@ -1,0 +1,135 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+    background-image:linear-gradient(0deg, rgba(203, 199, 205, 0.527), rgba(244, 160, 249, 0.428)), url("../assets/siran.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius:2em;
+    padding:1em 0;
+    font-family: Neuehaa,"Open sans", "Arial", sans-serif;
+}
+
+.about__me p{
+    margin-top: 1.5em;
+    font-size:var(--size-base);
+    line-height: 1.75;
+    color: var(--Black);
+}
+
+.about__me h1{
+    font-size:var(--size-xl);
+    color: var(--Black);
+}
+
+.about__me_tabs{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.tab__titles{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tab_links{
+    text-decoration: none;
+    color: var(--Light-black);
+    margin:0.07em;
+    font-weight: 600;
+    border: none;
+    font-size:var(--size-lg);
+    cursor: pointer;
+}
+
+.tab_links.active {
+    color: var(--Black);
+    border-bottom: 1px solid var(--Light-black);
+}
+
+.tab_links:hover{
+    color: var(--Black);
+}
+
+.tab_content {
+    display: none;
+    flex-wrap: wrap;
+    gap: 0.3em;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0.5em;
+}
+
+.tab_content.active {
+    display: flex;
+    overflow: scroll;
+}
+
+.tab_content label{
+    border: 1px solid var(--Light-black);
+    border-radius:6px;
+    padding:0.3rem;
+    font-size:var(--size-xs);
+    letter-spacing:0.05em;
+    color:var(--Light-black);
+}
+
+.tab_content p{
+    color:var(--Light-black);
+    font-size:var(--size-base);
+    line-height: 1.75;
+    text-align: left;
+}
+
+.about__me > p .blockquote{
+    border-left: 5px solid var(--purple);
+    padding-left: 0.7em;
+    color: var(--Light-black);
+    background-color: #d56ff735;
+}
+
+meter{
+    height: 0.4em;
+    width: 100%;
+}
+/* media queries */
+/* xs */
+@media screen and (min-width: 475px) {
+
+}
+/* sm */
+@media screen and (min-width: 640px) {
+
+}
+/* md */
+@media screen and (min-width: 768px) {
+    .about__me p{
+        font-size:var(--size-xl);
+    }
+
+    .tab_content label{
+        font-size:var(--size-sm);
+    }
+
+    .tab_content p{
+        font-size:var(--size-lg);
+    }
+}
+/* lg */
+@media screen and (min-width: 1024px) {
+
+}
+/* xl */
+@media screen and (min-width: 1280px) {
+}
+/* 2xl */
+@media screen and (min-width: 1536px) {
+
+}
