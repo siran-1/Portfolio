@@ -6,15 +6,15 @@ import work from "../assets/work-img/github.png"
 export default function Work(){
   const { ref, className } = useSlideUp();
   const works = [
-    {name:"portfolio", img:`${work}`},
-    {name:"ToDoApp", img:`${work}`},
-    {name:"URL Shortner", img:`${work}`}
+    {name:"portfolio", img:`${work}`, src:'https://github.com/siran-1/Portfolio'},
+    {name:"ToDoApp", img:`${work}`, src:'https://github.com/siran-1/Portfolio'},
+    {name:"URL Shortner", img:`${work}`, src:'https://github.com/siran-1/Portfolio'}
   ]
   function workrenderer(works){
     return works.map((work,i) => (
       <div key={i} className="work__div_child" data-attribute={`${work.name}`}>
           <div className="work__body">
-            <h4>{work.name}</h4>
+            <a href={`${work.src}`} target="__blank"><h4>{work.name}</h4></a>
             <div className="work__bg">
               <img src={work.img} alt={`Work ${i+1}`} />
             </div>

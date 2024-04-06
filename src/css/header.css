@@ -11,15 +11,16 @@
 .header__menu{
     display:flex;
     list-style: none;
-    gap:1em;
+    gap:0.7em;
     align-items: center;
 }
 
 .header__link{
-    font-size:var(--size-base);
+    font-size:var(--size-sm);
     text-decoration: none;
     color: var(--Black);
     transition: all 0.3s;
+    font-weight: 500;
 }
 
 .name{

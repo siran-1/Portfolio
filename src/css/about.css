@@ -4,7 +4,7 @@
     justify-content:center;
     align-items:center;
     gap:1rem;
-    background-image:linear-gradient(0deg, rgba(203, 199, 205, 0.527), rgba(244, 160, 249, 0.428)), url("../assets/siran.png");
+    background-image:linear-gradient(0deg, rgba(203, 199, 205, 0.527), rgba(175, 92, 178, 0.999)), url("../assets/siran.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -16,7 +16,7 @@
 
 .about__me p{
     margin-top: 1.5em;
-    font-size:var(--size-base);
+    font-size:var(--size-sm);
     line-height: 1.75;
     color: var(--Black);
 }
@@ -82,7 +82,7 @@
 }
 
 .tab_content p{
-    color:var(--Light-black);
+    color:var(--Black);
     font-size:var(--size-base);
     line-height: 1.75;
     text-align: left;

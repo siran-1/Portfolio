@@ -32,14 +32,19 @@
     width: 8rem;
     height: 4rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.work__body h4{
+.work__body a{
+    text-decoration: none;
     color: var(--Black);
 }
 
 .work__bg{
-    width: 100%;
+    width: 90%;
     object-fit: contain;
 }
 /* media queries */
@@ -60,13 +65,9 @@
     }
 
     .work__body{
-        padding: 0.03em;
-        width: 10rem;
+        padding: 1rem;
+        width: 12rem;
         height: 5rem;
-    }
-
-    .work__body h4{
-        font-size: var(--size-2xl);
     }
 }
 /* lg */
