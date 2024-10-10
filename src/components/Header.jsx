@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from "react";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../css/header.css';
 
 export default function Header() {
@@ -35,7 +39,7 @@ export default function Header() {
     // resume download
     const handleResumeDownload = () => {
       const fileName = "siranjeevi_muthusamy.pdf";
-      const fileUrl = `../public/${fileName}`;
+      const fileUrl = `${window.location.origin}/${fileName}`;
 
       const downloadAnchor = document.createElement("a");
       downloadAnchor.href = fileUrl;
@@ -62,22 +66,18 @@ export default function Header() {
                 Work
               </a>
             </li>
-            <li>
-              <a className="header__link revert_tab_btn" href="http://blog.siranstatus200.com/">Blog
-              </a>
-            </li>
           </ul>
         </div>
         <div>
           <ul className="header__menu">
             <li>
               <button className="header__mode mode-switch" onClick={toggleTheme} data-attribute="light">
-                <i className={`mode-icon far fa-lg ${theme == 'light'? 'fa-moon':'fa-sun'}`}></i>
+                <i className={`mode-icon far fa-lg ${theme == 'light'? 'fa-solid fa-moon': 'fa-moon'}`}></i>
               </button>
             </li>
             <li>
               <button className="header__resume btn resumeButton_desktop" onClick={handleResumeDownload}>
-                Resume
+              <i class="fas fa-arrow-down fa-xs"></i>&nbsp;Resume 
               </button>
             </li>
           </ul>

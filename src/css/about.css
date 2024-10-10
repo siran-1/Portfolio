@@ -4,26 +4,25 @@
     justify-content:center;
     align-items:center;
     gap:1rem;
-    background-image:linear-gradient(0deg, rgba(203, 199, 205, 0.527), rgba(175, 92, 178, 0.999)), url("../assets/siran.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    border-radius:2em;
+    border-radius: 24px;
     padding:1em 0;
     font-family: Neuehaa,"Open sans", "Arial", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+    color: var(--Black);
+    background-color: var(--light-background);
+
 }
 
 .about__me p{
     margin-top: 1.5em;
     font-size:var(--size-sm);
     line-height: 1.75;
-    color: var(--Black);
 }
 
 .about__me h1{
     font-size:var(--size-xl);
     color: var(--Black);
+    text-align: center;
 }
 
 .about__me_tabs{
@@ -85,7 +84,7 @@
     color:var(--Black);
     font-size:var(--size-base);
     line-height: 1.75;
-    text-align: left;
+    text-align: center;
 }
 
 .about__me > p .blockquote{
@@ -110,6 +109,10 @@ meter{
 }
 /* md */
 @media screen and (min-width: 768px) {
+    .about__me h1{
+        text-align: left;
+    }
+
     .about__me p{
         font-size:var(--size-xl);
     }

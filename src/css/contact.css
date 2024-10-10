@@ -1,118 +1,78 @@
-.contact{
-    border: 1px solid var(--Light-black);
-    border-radius:2em;
-    padding:1em 0;
+.contact {
+    border-radius: 24px;
+    padding: 1em 0;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-image: linear-gradient(0deg, rgba(250, 250, 250, 0.341), rgba(175, 92, 178, 0.929)), url("../assets/siran.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    min-height: 18rem;
+    display: flex;
+    justify-content: center;
 }
 
-.contact__right_hand{
+.contact__right_hand {
     margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-self: flex-end;
+    gap: 1em;
 }
 
-.contact_left_hand_heading{
+.contact_left_hand_heading {
     color: var(--Black);
-    font-size:var(--size-xl);
+    font-size: var(--size-xl);
     text-align: center;
 }
 
-.contact_form{
+.contact_buttons{
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    justify-content: space-around;
 }
 
-.contact_form div{
-    margin:0.5em;
-}
-
-.contact_form_label{
-    color:var(--Black);
-}
-
-.contact_form_input{
-    width: 18em;
-    height: 4em;
-}
-
-.contact_form_textarea{
-    width: 18em;
-    height: 8em;
-    resize: none;
-}
-
-.contact_form_input, .contact_form_textarea{
-    border:none;
-    border-radius:5px;
-    padding: 0.5em;
-    background-color: var(--light-background);
+.contact_text{
     color: var(--Black);
 }
-
-.contact_form_btn{
-    --size:15rem;
-    background-color:var(--Light-black);
-    color: var(--light-background);
-    min-width:var(--size);
-    height:calc(var(--size)/5);
-    border-radius: 0.5em;
-}
-
-.contact_form_btn:hover {
-    background-color: var(--Black);
+.contactLinks{
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--Black);
 }
 
 /* media queries */
 /* xs */
-@media screen and (min-width: 475px) {
-    .contact_form_input{
-        width: 20em;
-    }
+@media screen and (min-width: 475px) {}
 
-    .contact_form_textarea{
-        width: 20em;
-    }
-}
 /* sm */
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) {}
 
-}
 /* md */
 @media screen and (min-width: 768px) {
-    .contact__contact_div{
+    .contact {
+        background-position: left;
+    }
+
+    .contact__contact_div {
         display: flex;
         align-items: flex-start;
         justify-content: space-evenly;
     }
 
-    .contact__left_hand{
-        margin-top: 2em;
-    }
-
-    .contact_left_hand_heading{
-        font-size:var(--size-4xl);
-    }
-
-    .contact_form_textarea{
-        width: 15em;
-        height: 6em;
-    }
-
-    .contact_form_input{
-        width: 15em;
-        height: 3em;
+    .contact_left_hand_heading {
+        font-size: var(--size-5xl);
     }
 }
+
 /* lg */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {}
 
-}
 /* xl */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {}
 
-}
 /* 2xl */
-@media screen and (min-width: 1536px) {
-
-}
+@media screen and (min-width: 1536px) {}

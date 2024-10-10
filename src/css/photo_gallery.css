@@ -5,22 +5,23 @@
     align-items:center;
     gap:1rem;
     background-color: var(--light-background);
-    border-radius:2em;
+    border-radius: 24px;
     padding:1em 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
+
 }
 .photo_row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    padding: 0 4px;
     overflow: hidden;
   }
   
  .photo_column{
     -ms-flex: 25%; /* IE10 */
   flex: 25%;
-  max-width: 25%;
+  max-width: 35%;
   padding: 0 4px;
  }
 

@@ -15,9 +15,8 @@ export default function Hero(){
         <h1 className="hero__title">Hey!<br/><span className="my_name">I'm Siran</span></h1>
       </div>
       <div className="hero__description_div">
-        <p className="hero__my_description"><q>A commerce graduate passionate about web design and development,
-          I create web solutions with precision and simplicity, blending aesthetics and functionality seamlessly.
-          Scroll down to know more about me.</q></p>
+        <p className="hero__my_description"><q>A computer science graduate passionate about web design and development,
+          I create web solutions with precision and simplicity, blending aesthetics and functionality seamlessly.</q> Scroll down to know more about me.</p>
       </div>
     </section>
     )

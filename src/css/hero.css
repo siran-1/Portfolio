@@ -18,18 +18,19 @@
 .hero__title_div{
     margin-top: 1.5em;
     text-align: center;
-    /* font-family: poppins-regular,code-next-bold, Neuehaa,"Open sans", "Arial", sans-serif; */
 }
 
 .hero__title{
     font-size:var(--size-6xl);
     color: var(--Black);
+    /* font-family: jenthill; */
 }
 
 .hero__my_description{
     font-size:var(--size-2xl);
     line-height: 1.5em;
     color: var(--Black);
+    text-align: center;
 }
 
 .hero__description_div{
@@ -54,8 +55,9 @@
     }
 
     .hero__my_description{
-        font-size:var(--size-3xl);
+        font-size:var(--size-2xl);
         line-height: 1.7em;
+        /* text-align: left; */
     }
 }
 
