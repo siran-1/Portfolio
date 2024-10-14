@@ -27,28 +27,28 @@
 
 .blob-1{
     --speed: 40s;
-    --size: 250px;
+    --size: 300px;
     left: 1%;
 }
 
 .blob-2{
     --speed: 30s;
-    --size: 150px;
+    --size: 200px;
     left: 5%;
     top: -15%;
 }
 
 .blob-3{
     --speed: 20s;
-    --size: 100px;
-    left: 35%;
+    --size: 150px;
+    left: 25%;
     bottom:35%;
 }
 
 .blob-4{
     --speed: 15s;
-    --size: 50px;
-    left: 45%;
+    --size: 100px;
+    left: 35%;
     bottom:30%;
 }
 

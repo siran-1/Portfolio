@@ -2,24 +2,23 @@
     border-radius: 24px;
     padding: 1em 0;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    background-image: linear-gradient(0deg, rgba(250, 250, 250, 0.341), rgba(175, 92, 178, 0.929)), url("../assets/siran.png");
+    /* background-image: linear-gradient(0deg, rgba(250, 250, 250, 0.341), rgba(175, 92, 178, 0.929)), url("../assets/favicon/siran.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: contain;
-    min-height: 18rem;
+    background-size: contain; */
+    background-color: var(--light-background);
+    min-height: 13rem;
     display: flex;
     justify-content: center;
 }
 
 .contact__right_hand {
-    margin-top: 1.5em;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    align-self: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 90%;
     gap: 1em;
 }
 
@@ -59,12 +58,13 @@
 
     .contact__contact_div {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
+        gap: 1em;
     }
 
     .contact_left_hand_heading {
-        font-size: var(--size-5xl);
+        font-size: var(--size-4xl);
     }
 }
 

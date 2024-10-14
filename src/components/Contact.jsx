@@ -7,7 +7,7 @@ export default function Contact() {
   const { ref, className } = useSlideUp();
 
   return (
-    <section ref={ref} className={`contact container section slide_up ${className}`} id="contact">
+    <section ref={ref} className={`contact container section ${className}`} id="contact">
       <div className="contact__contact_div">
         <div className="contact__left_hand">
           <h1 className="contact_left_hand_heading">Want to get in touch?</h1>

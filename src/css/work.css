@@ -15,7 +15,7 @@
     margin-top: 1.5em;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1em;
     justify-content: center;
 }
 
@@ -29,7 +29,7 @@
 .work__body {
     background-color: #5b595962;
     width: 10rem;
-    height: 5.2rem;
+    height: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,12 +49,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.019);
-    /* Background with slight visibility */
-    filter: blur(6px);
-    /* Apply the blur effect */
+    background: rgba(0, 0, 0, 0.021);
+    filter: blur(4px);
 }
 
 /* media queries */

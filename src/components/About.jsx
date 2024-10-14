@@ -14,18 +14,21 @@ export default function About() {
     };
 
     return (
-        <section ref={ref} className={`about container section slide_up ${className}`} id="about">
+        <section ref={ref} className={`about container section ${className}`} id="about">
             <div className="about__me">
                 <h1>My Career</h1>
                 <p>
-                    Before switching to a tech role, I spent two years as a <strong>Customer Service Associate</strong> at Amazon.
-                    The transition to tech role was indeed hard. Multiple rejections, countless applications and over time
-                    I lost track of my application's status.</p>
-
+                    I worked for Amazon for two years as a customer service associate before moving into technology.
+                    It was difficult to make the switch to a tech career.
+                    I received numerous rejections and lost track of the progress of my applications over time.
+                </p>
                 <p> After two years, I was interviewed for an internal developer role in Amazon and
                     successfully (with a bit of luck) transitioned to a <strong>Full Stack Web Developer</strong> in Automation.
-                    Now with over 2 years of experience in the tech field, my enthusiasm for this path continues to grow. I do struggle, sometimes even with the fundamentals (Regex?👀),
-                    but still learning and I sure believe that learning has no end.
+                    I developed products and tools that enhance operations of the Amazon employees.</p>
+                <p>
+                    After more than two years in the tech industry, I made the decision to pursue a master's degree in computer science, and I moved to Ireland from my native India.
+                    This new stage of my academic career has improved me personally and given me new perspectives on a variety of technology and fields.
+                    Currently, I work as a freelancer and am actively seeking new employment.
                 </p>
             </div>
             <div className="about__me_tabs">
@@ -48,8 +51,7 @@ export default function About() {
                         <label>Express.js</label>
                     </div>
                     <div className={`tab_content ${activeTab === "education" ? "active" : ""}`} id="education">
-                        <p>During my undergraduate studies, I pursued a Bachelor's degree in Commerce with Computer Applications at Bharathiar University.
-                            Currently, I am enrolled in Master's program in Cloud Computing at National College of Ireland.</p>
+                        <p>I received a master's degree in cloud computing from the National College of Ireland, and I studied computer applications for my bachelor's degree in commerce at Bharathiar University.</p>
                     </div>
                 </div>
             </div>

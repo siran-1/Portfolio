@@ -2,7 +2,7 @@
 :root {
   /* backgrounds */
   --light-background: #fafafa;
-  --Off-White: #eeeff1;
+  --Off-White: #e1e1e1;
 
   /* accents */
   --Black: #1A1B1F;
@@ -71,11 +71,11 @@ button {
   color: inherit;
 }
 
-/* Importing fonts */
-@font-face {
-  font-family: poppins-regular;
-  src: url(./assets/fonts/Poppins-Regular.ttf);
+.nobreak{
+  white-space: nowrap;
 }
+/* Importing fonts */
+
 
 @font-face {
   font-family: Neuehaa;
@@ -83,32 +83,9 @@ button {
 }
 
 @font-face {
-  font-family: graphik-medium;
-  src: url(./assets/fonts/GraphikMedium.otf);
+  font-family: Inter;
+  src: url(./assets/fonts/Inter-Bold.otf);
 }
 
-@font-face {
-  font-family: graphik-regular;
-  src: url(./assets/fonts/GraphikRegular.otf);
-}
 
-@font-face {
-  font-family: graphik-bold;
-  src: url(./assets/fonts/GraphikBold.otf);
-}
-
-@font-face {
-  font-family: recoleta-normal;
-  src: url(./assets/fonts/Recoleta-RegularDEMO.otf);
-}
-
-@font-face {
-  font-family: code-next-bold;
-  src: url(./assets/fonts/CodeNext-Trial-Black.ttf);
-}
-
-@font-face {
-  font-family: jenthill;
-  src: url(./assets/fonts/Mereoleona-Script.ttf);
-}
 /*# sourceMappingURL=portfolio_blog_input_style.css.map */

@@ -10,7 +10,6 @@
     box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 2px;
     color: var(--Black);
     background-color: var(--light-background);
-
 }
 
 .about__me p{
@@ -87,7 +86,7 @@
     text-align: center;
 }
 
-.about__me > p .blockquote{
+.about__me > p blockquote{
     border-left: 5px solid var(--purple);
     padding-left: 0.7em;
     color: var(--Light-black);

@@ -1,76 +1,66 @@
-.hero{
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    gap:1rem;
-    margin-top:2rem;
+.hero {
+    text-align: center;
+    margin-top: 2rem;
     user-select: none;
     position: relative;
 }
 
-.my_name{
-    background: linear-gradient(100deg, var(--Black)30%, var(--Light-black));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.hero__title_div {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
 }
 
-.hero__title_div{
-    margin-top: 1.5em;
-    text-align: center;
-}
-
-.hero__title{
-    font-size:var(--size-6xl);
+.hero_title {
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: var(--size-4xl);
     color: var(--Black);
-    /* font-family: jenthill; */
 }
 
-.hero__my_description{
-    font-size:var(--size-2xl);
+.hero_img {
+    display: inline;
+    width: 250px;
+    object-fit: contain;
+}
+
+.hero__my_description {
+    font-size: var(--size-2xl);
     line-height: 1.5em;
     color: var(--Black);
     text-align: center;
+    user-select: none;
 }
 
-.hero__description_div{
-    margin-top: 1.5em;
+.hero__description_div {
+    margin-top: 2em;
+    user-select: none;
 }
 
 /* xs */
-@media screen and (min-width: 475px) {
+@media screen and (min-width: 475px) {}
 
-}
 /* sm */
-@media screen and (min-width: 640px) {
-}
+@media screen and (min-width: 640px) {}
+
 /* md */
 @media screen and (min-width: 768px) {
-    .hero{
+    .hero {
         justify-content: space-evenly;
     }
 
-    .hero__title{
-        font-size:var(--size-8xl);
-    }
-
-    .hero__my_description{
-        font-size:var(--size-2xl);
+    .hero__my_description {
+        font-size: var(--size-2xl);
         line-height: 1.7em;
         /* text-align: left; */
     }
 }
 
 /* lg */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {}
 
-}
 /* xl */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {}
 
-}
 /* 2xl */
-@media screen and (min-width: 1536px) {
-
-}
-
+@media screen and (min-width: 1536px) {}
