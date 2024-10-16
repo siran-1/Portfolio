@@ -13,46 +13,70 @@
 
 .work__div {
     margin-top: 1.5em;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0.4em;
 }
 
 .work__div_child {
     transition: all 0.6s;
-    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.051) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
     border-radius: 6px;
     overflow: hidden;
+    display: grid;
+    place-items: center;
+    position: relative;
 }
-
+.work__div_child_0, .work__div_child_3{
+    height: 100px;
+}
+.work__div_child_1, .work__div_child_2{
+    height: 200px;
+}
 .work__body {
-    background-color: #5b595962;
-    width: 10rem;
-    height: 5rem;
+    background-color: rgba(255, 255,255, 0.1);
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 1;
-    overflow: hidden;
 }
 
-.work__body h4 {
-    color: var(--Black);
+.work__div_child h4 {
+    color: var(--light-background);
     font-size: var(--size-base);
 }
 
-.work__bg {
+.work__div_child > img {
     z-index: -1;
     position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.021);
-    filter: blur(4px);
+    background: rgba(144, 144, 144, 0.552);
+
+    filter: blur(7px);
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
+.work__div_child_0{
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
+}
+.work__div_child_1{
+    grid-column: 2;
+    grid-row: 1 / span 4;
+}
+.work__div_child_2{
+    grid-column: 1 / 2;
+    grid-row: 3 / span 5;
+}
+.work__div_child_3{
+    grid-column: 2;
+    grid-row: 5;
+}
 /* media queries */
 /* xs */
 @media screen and (min-width: 475px) {}
@@ -65,24 +89,9 @@
     .work h1 {
         text-align: left;
     }
-
-    .work__body {
-        padding: 1rem;
-        width: 12rem;
-        height: 5rem;
-    }
-
-    .work__body h4 {
-        color: var(--Black);
-        font-size: var(--size-base);
-    }
-
-    .work__body h4:hover {
-        color: var(--Light-black);
-    }
-
-    .work__bg {
-        object-fit: cover;
+    .work__div_child:hover > img{
+        background: rgba(171, 171, 171, 0.394);
+        transform: scale(1.05);
     }
 }
 
