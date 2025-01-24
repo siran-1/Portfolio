@@ -2,11 +2,7 @@
     border-radius: 24px;
     padding: 1em 0;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    /* background-image: linear-gradient(0deg, rgba(250, 250, 250, 0.341), rgba(175, 92, 178, 0.929)), url("../assets/favicon/siran.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: contain; */
+    color: var(--Black);
     background-color: var(--light-background);
 }
 

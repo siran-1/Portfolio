@@ -18,7 +18,7 @@ export default function About() {
             <div className="about__me">
                 <h1>My Career</h1>
                 <p>
-                    I worked for Amazon for two years as a customer service associate before moving into technology.
+                    I worked for Amazon for almost two years as a customer service associate before moving into technology.
                     It was difficult to make the switch to a tech career.
                     I received numerous rejections and lost track of the progress of my applications over time.
                 </p>
@@ -51,7 +51,7 @@ export default function About() {
                         <label>Express.js</label>
                     </div>
                     <div className={`tab_content ${activeTab === "education" ? "active" : ""}`} id="education">
-                        <p>I received a master's degree in cloud computing from the National College of Ireland, and I studied computer applications for my bachelor's degree in commerce at Bharathiar University.</p>
+                        <p>I received a master's degree in cloud computing from the National College of Ireland, and I studied computer applications for my bachelor's degree at Bharathiar University.</p>
                     </div>
                 </div>
             </div>
