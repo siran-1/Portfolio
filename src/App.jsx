@@ -13,7 +13,7 @@ import Blog from './components/Blog';
 import './App.css'
 
 const blogFetch = async () => {
-    const apiKey = 'AIzaSyDvFyLdpfQRQLJUYSN6A929QNz9ZYVF3rg';
+    const apiKey = process.env.MY_KEY;
     const spreadsheetId = '1nUaHsk6prEpsr85IOWl1WF_3rqaufB6Jtk7komY7Ch4';
     const range = 'Sheet1!A2:D';
 
