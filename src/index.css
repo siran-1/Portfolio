@@ -75,8 +75,6 @@ button {
   white-space: nowrap;
 }
 /* Importing fonts */
-
-
 @font-face {
   font-family: Neuehaa;
   src: url(./assets/fonts/NeueHaasUnica-Regular.ttf);

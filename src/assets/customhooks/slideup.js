@@ -2,8 +2,8 @@ import { useInView } from 'react-intersection-observer';
 
 export const useSlideUp = () => {
     const { ref, inView } = useInView({
-        threshold: 0.1, // Adjust as needed
-        triggerOnce: true, // Optional: Trigger animation only once
+        threshold: 0.1,
+        triggerOnce: true, 
     });
 
     const className = inView ? 'slide_up is-visible' : 'slide_up';

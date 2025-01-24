@@ -1,54 +1,55 @@
-.work__div{
-    padding:0.7em;
+.work__div {
+    padding: 0.7em;
     font-family: Neuehaa, "Open sans", "Arial", sans-serif;
 }
 
-.work__div_section{
+.work__div_section {
     display: flex;
     flex-direction: column;
-    gap:0.7em;
+    gap: 0.7em;
     padding: 0.7em;
     background-color: var(--Off-White);
 }
 
-.work__main{
+.work__main {
     font-weight: 100;
 }
 
-.top_radius{
+.top_radius {
     border-radius: 1em 1em 0 0;
 }
 
-.bottom_radius{
+.bottom_radius {
     border-radius: 0 0 1em 1em;
 }
 
-.work__div_section p, b{
-    font-size:var(--size-sm);
+.work__div_section p,
+b {
+    font-size: var(--size-sm);
     line-height: 1.75;
 }
 
-.work__div_pic_group_parent{
-    overflow:scroll;
-}
-
-.work__div_pic_groups{
-    display: flex;
-    gap:1em;
+.work__div_pic_group_parent {
     overflow: scroll;
-    align-items:center;
 }
 
-.work__div_pic_groups img{
+.work__div_pic_groups {
+    display: flex;
+    gap: 1em;
+    overflow: scroll;
+    align-items: center;
+}
+
+.work__div_pic_groups img {
     object-fit: cover;
     height: var(--size-4xl);
 }
 
-.image{
+.image {
     padding: 0.9em;
 }
 
-.work__div_pic_groups label{
+.work__div_pic_groups label {
     font-size: var(--size-base);
     letter-spacing: 0.05em;
 }
@@ -69,43 +70,42 @@
     border-bottom: 1px solid var(--Light-black);
 }
 
-.work__div_section code{
+.work__div_section code {
     max-width: inherit;
     overflow: scroll;
     line-break: strict;
     background-color: #32324D;
     border-radius: 0.2em;
     color: #5C8396;
-    padding:0.4em 0.9em 0.4em 0.9em;
+    padding: 0.4em 0.9em 0.4em 0.9em;
 }
+
 /* media queries */
 /* xs */
-@media screen and (min-width: 475px) {
+@media screen and (min-width: 475px) {}
 
-}
 /* sm */
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px) {}
 
-}
 /* md */
 @media screen and (min-width: 768px) {
-    .work__div_section p, b{
-        font-size:var(--size-base);
+
+    .work__div_section p,
+    b {
+        font-size: var(--size-base);
     }
 
 }
+
 /* lg */
 @media screen and (min-width: 1024px) {
-    .work__div_pic_groups img{
+    .work__div_pic_groups img {
         height: var(--size-3xl);
     }
 }
+
 /* xl */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {}
 
-}
 /* 2xl */
-@media screen and (min-width: 1536px) {
-
-}
-
+@media screen and (min-width: 1536px) {}
