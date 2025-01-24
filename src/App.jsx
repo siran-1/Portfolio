@@ -45,7 +45,7 @@ function App() {
                         <PhotoGallery />
                         <About />
                         <Work />
-                        {blogData !== null && <Blog posts={blogData} origin={'home'} />}
+                        {/* {blogData !== null && <Blog posts={blogData} origin={'home'} />} */}
                         <Contact />
                         <Footer />
                     </main>
